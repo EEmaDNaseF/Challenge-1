@@ -144,5 +144,9 @@
         top: 0;
         left: 0;
         transform: none;
+        width: 100%;
+    }
+    .side-one , .side-two {
+        width: 100%;
     }
 }
