@@ -136,17 +136,25 @@
 }
 
 
-@media (max-width : 576px) {
+@media (max-width : 705px) {
     .container {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
         box-shadow: none;
-        position: none;
-        top: 0;
-        left: 0;
-        transform: none;
-        width: 100%;
+
     }
     .side-one , .side-two {
         width: 100%;
     }
+    .side-one {
+        border-bottom-right-radius:0 ;
+        border-bottom-left-radius:0 ;
+    }
+    .side-two {
+        border-top-right-radius:0 ;
+
+    }
+
 }
